@@ -3,7 +3,7 @@ import Express, { Request, Response } from "express";
 const request = require("request");
 
 const server = Express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 server.all("*", (req: Request, res: Response) => {
   try {
