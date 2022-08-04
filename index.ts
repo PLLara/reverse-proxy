@@ -1,9 +1,10 @@
 import Express, { Request, Response } from "express";
+import cors from 'cors'
 
 const request = require("request");
-
 const server = Express();
 const port = process.env.PORT || 3000;
+server.use(cors());
 
 server.all("*", (req: Request, res: Response) => {
   try {
