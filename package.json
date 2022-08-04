@@ -6,7 +6,9 @@
   "author": "PLLara <freelance.pedrolara@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "build" : "tsc",
+    "start": "node index.js"
   },
   "dependencies": {
     "@types/express": "^4.17.13",
