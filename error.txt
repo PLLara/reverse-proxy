@@ -1,0 +1,1 @@
+Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:slack.com, DNS:*.slack.com
